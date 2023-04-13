@@ -11,7 +11,7 @@ tags:
 
 ## Description
 
-In this chapter, we discuss different types of training material formats and how they can facilitate or hinder their FAIRness. We also discuss the importance of annotating training material with the minimal necessary information and documenting as much as possible (e.g. by providing instructor notes and/or a lesson plan) for stand-alone re-usability. 
+In this chapter, we discuss types of training material formats and how they can facilitate or hinder their FAIRness. We also discuss the importance of annotating training material with the minimal necessary information and documenting as much as possible (e.g. by providing instructor notes or a lesson plan) for stand-alone re-usability. 
 
 !!! info "Learning outcomes"
     **At the end of this chapter you should be able to:**
@@ -19,16 +19,22 @@ In this chapter, we discuss different types of training material formats and how
      1. Identify most popular training material formats/types 
      2. Identify material types and formats that facilitate interoperability and reusability
      3. Explain the relevance of annotating training material with minimal necessary information for interoperability and  reusability, having a README file, and using naming conventions.
-     4. Explain the relevance of documenting (e.g. by providing instructor notes and/or a  lesson plan) for stand-alone re-usability 
+     4. Explain the relevance of documenting (e.g. by providing instructor notes or a  lesson plan) for stand-alone re-usability 
 
 ## Prerequisites
 [Chapter 1](chapter_01.md) 
 
 ## Training material formats/types
 
-In Chapter 1, we used a “broad” definition of training materials as anything you would produce yourself (or reuse) as a support for your teaching activity. These can be slides, datasets, videos, software, a GitHub repo, a collection of exercises, Virtual Machines (VMs)/Containers, etc. In summary, any digital object that can be used to deliver a lesson, course, or curriculum. 
+In Chapter 1, we define training materials broadly as anything you would produce yourself or reuse as support for your teaching activites. These can be slides, datasets, videos, software, GitHub repos, a collection of exercises or Virtual Machines (VMs) and Containers, effectively any digital object supports delivering a lesson, course, or curriculum. 
 
-Each type of material can be captured in a variety of formats. Each format has advantages and disadvantages in terms of interoperability and (re)usability. Some formats facilitate interoperability, some facilitate (re)usability, some facilitate both. 
+Each type of material can be captured in a variety of formats. Each format has advantages and disadvantages in terms of interoperability and (re)usability. Some formats facilitate interoperability, some facilitate re-usability, some facilitate both. 
+
+Most training material contain slides. 
+We recommend using an open format. 
+While PDFs can be manipulated, they are not as easily included in other slide decks and are anyway not the format that people use for creating slide decks. 
+Sometimes PDFs are the format distributed to learns to have an imutable set of slides.
+When using Powerpoint it will pay to spend time on the setup and 
 
 !!! example "Exercise"
 
@@ -82,7 +88,7 @@ File formats will have different implications in the context of FAIRness dependi
 
 The key point of Rule 6 is: “Training materials need to be captured in interoperable formats, so that they can be used in different contexts (e.g., operating systems and software) and built upon later. For materials like slides, it is important that other trainers are able to (re)use, fine-tune or even extend them. This means that you should choose a format that supports editing and extension. 
 
-Put in simple terms, training material is interoperable when we are able to take parts of it, like slides, exercises, images, etc., and incorporate them in other course material or export it in a different context, as well as fix errors or extend it. This is doable to different extent depending on the material format. Taking parts of a video or modifying a pdf is not impossible, but often requires a licence for the appropriate software or skills not easy to own. Using, e.g., text or markdown files will facilitate the updates of materials or their integration into a new context or a different set of materials. Interoperable formats, according to this definition, facilitate the reuse of materials as described in point 1 above. 
+Training material is interoperable when we are able to take individual slides, exercises, or images and incorporate them in other course material or export it in a different context, as well as fix errors or extend it. This is doable to different extent depending on the material format. Taking parts of a video or modifying a PDF is not impossible, but often requires a licence for the appropriate software or skills not easy to own. Individual images or markdown files support the updates of materials or their integration into a new materials. Interoperable formats, according to this definition, facilitate the reuse of materials as described in point 1 above. 
 
 Does interoperability always implies reusability? Does a format that supports material editing and extension guarantee that the material can be easily reused? In principle yes, but it is not always the case. 
 
